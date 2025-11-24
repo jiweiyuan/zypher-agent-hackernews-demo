@@ -1,0 +1,3 @@
+```shell
+deno task agent
+```

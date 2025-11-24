@@ -1,0 +1,26 @@
+{
+  "tasks": {
+    "agent": "deno run -A --env src/main.ts"
+  },
+  "imports": {
+    "@corespeed/zypher": "jsr:@corespeed/zypher@^0.5.1",
+    "rxjs-for-await": "npm:rxjs-for-await@^1.0.0",
+    "zod": "npm:zod@^3.23.8"
+  },
+  "compilerOptions": {
+    "lib": ["deno.window", "deno.unstable"],
+    "strict": true
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": false
+  }
+}
